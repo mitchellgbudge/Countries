@@ -12,7 +12,7 @@
 
 - (instancetype) initWithName:(NSString *)name {
     if (self = [super init]) {
-        _name = [name copy];
+        _name = name;
     }
     return self;
 }
